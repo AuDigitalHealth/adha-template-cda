@@ -1,4 +1,6 @@
-# au-digitalhealth-cda-template
-The purpose of this repository is to contain FHIR implementation guide template styling that adds CDA specification branding (like logo). 
+# adha-template-cda
+The purpose of this repository is to contain FHIR implementation guide template styling that adds CDA specification branding (like logo), or other CDA artefact styling. 
 
-In future, the FHIR publication tooling may be used to assist with CDA specification development and this template will be required for the appropriate  CDA technology styling.
+It will directly inherit from the ADHA template `adha-template-base` (https://github.com/AuDigitalHealth/adha-template-base) and is intended to serve as a base for most Agency CDA-style implementation guide publications.
+
+package id = _to be determined_
