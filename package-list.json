@@ -1,0 +1,23 @@
+﻿{
+  "package-id": "adha-template-cda",
+  "title": "CDA technology specific template for FHIR IGs published by the Australian Digital Health Agency",
+  "canonical": "http://ns.electronichealth.net.au/fhir/adha-template-cda",
+  "introduction": "This is the ADHA FHIR implementation guide template that adds CDA specification branding (like logo), or other CDA artefact styling.",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://github.com/AuDigitalHealth/adha-template-cda",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.0.1",
+      "desc": "First draft",
+      "path": "https://github.com/AuDigitalHealth/adha-template-cda",
+      "status": "draft",
+      "sequence": "Publications",
+      "date": "2023-04-24"
+    }
+  ]
+}
