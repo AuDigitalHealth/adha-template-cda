@@ -1,0 +1,41 @@
+/*
+
+  CDA technology specific layout and styling
+
+*/
+
+/* colour variables */
+:root {
+  --canonical-table-background-color: #ffffe6; /* the colour of the background of the canonical table */
+  --xml-snippet-background-color: #F0FFFF; /* the colour of the background of the example xml snippets */
+  --breadcrumb-bg-color: #7db9f5  ; /* 27. Breadcrumb background color */
+}
+
+/* background colour of canonical table at the top of resources */
+/* CSS selector table.colsd td */
+table.colsd td {
+	background-color: var(--canonical-table-background-color);
+}
+
+/* Navbar stripe */
+#stripe {
+  background: #7db9f5;
+}
+
+/* XML SNIPPETS */
+
+/* maximise the width of the xml snippet panes */
+pre.xml {
+  width: 100%;
+}
+
+/* ensure that the content of example XML snippets wrap within the pane */
+/* rather than extend un-wrapped hidden to the right of the pane */
+code[class*="language-xml"] {
+	white-space: break-spaces;
+}
+
+/* background colour of the example xml snippets */
+:not(pre) > code[class*="language-xml"], pre[class*="language-xml"] {
+  background: var(--xml-snippet-background-color);
+}
