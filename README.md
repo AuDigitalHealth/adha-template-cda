@@ -3,4 +3,4 @@ The purpose of this repository is to contain FHIR implementation guide template 
 
 It will directly inherit from the ADHA template `adha-template-base` (https://github.com/AuDigitalHealth/adha-template-base) and is intended to serve as a base for most Agency CDA-style implementation guide publications.
 
-package id = _to be determined_
+package id = adha.template.cda
