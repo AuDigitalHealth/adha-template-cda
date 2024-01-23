@@ -2,7 +2,7 @@
   "name" : "adha.template.cda",
   "type" : "fhir.template",
   "license" : "Apache-2.0",
-  "description" : "FHIR implementation guide template that adds CDA specification branding (like logo), or other CDA artefact styling.",
+  "description" : "FHIR implementation guide template that adds CDA specification styling for the Australian Digital Health Agency.",
   "author" : "https://www.digitalhealth.gov.au/",
   "canonical" : "http://ns.electronichealth.net.au/fhir/Template/adha.template.cda",  
   "base" : "adha.template.base",
