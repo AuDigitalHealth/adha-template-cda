@@ -8,7 +8,6 @@
 :root {
   --canonical-table-background-color: #ffffe6; /* the colour of the background of the canonical table */
   --xml-snippet-background-color: #F0FFFF; /* the colour of the background of the example xml snippets */
-  --breadcrumb-bg-color: #7db9f5; /* 27. Breadcrumb background color */
 }
 
 /* background colour of canonical table at the top of resources */
